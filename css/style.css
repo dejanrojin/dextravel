@@ -2470,7 +2470,9 @@ h1#aquariumbarcelona {
     font-size: 25px;
     width: 300px;
 }	
-	
+img#plane {
+	margin-left: 3.8em!important;
+	}
 
 	
 }
