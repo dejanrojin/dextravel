@@ -2390,7 +2390,12 @@ div#ibizza {
 
 p#sastrane {
     
-    font-size: 23px;
+    font-size: 16px;
+}
+	
+span#textmoscow {
+    font-size: 13px;
+    font-weight: 100;
 }
 
 ul#contact {
@@ -2478,7 +2483,15 @@ img#plane {
 
 
 @media (max-width: 360px){
+	p#sastrane {
+    
+    font-size: 16px;
+}
 	
+span#textmoscow {
+    font-size: 13px;
+    font-weight: 100;
+}
 #numberc {
   pointer-events: fill;
   cursor: pointer;
@@ -2537,6 +2550,17 @@ img#plane {
 
 
 @media (max-width: 320px){
+	
+p#sastrane {
+    
+    font-size: 16px;
+}
+	
+span#textmoscow {
+    font-size: 13px;
+    font-weight: 100;
+}	
+	
 #hoteltitle {
     font-size: 14px!important;
 }
