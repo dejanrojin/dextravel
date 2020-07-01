@@ -7,7 +7,7 @@ body{
 overflowY:hidden;	
 }
 
-p#demo3 {
+p#demo {
     color: #ab8e71;
     font-size: 20px;
     margin-top: 0px;
@@ -16,6 +16,8 @@ p#demo3 {
     width: 200px;
     padding: 5px;
 }
+
+
 
 #slider {
     background: url(slike/parisi.png);
@@ -173,11 +175,6 @@ h1#ibizzatext {
 	    line-height: 56px;
 }
 
-p#demo {
-    color: #ab8e71;
-    font-size: 40px;
-	margin-top: 100px;
-}
 
 
 
