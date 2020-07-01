@@ -2533,8 +2533,12 @@ h1#aquariumbarcelona {
 
 }
 
+@media screen and(max-width:320px){
+#hoteltitle {
+    font-size: 9.3px;
+}
 
-
+}
 
 
 
