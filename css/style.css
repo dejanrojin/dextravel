@@ -2325,6 +2325,19 @@ div#barcelonaform3 {
     padding: 50px;
     margin-left: 20px!important;
 }	
+
+	
+#slidermoscow {
+   
+	background-size: 280% 100%!important;}	
+	
+#sliderbarcelona {
+   
+	background-size: 280% 100%!important;}	
+
+#slidervenecia {
+   
+	background-size: 280% 100%!important;}		
 	
 }
 
@@ -2507,7 +2520,21 @@ font-weight: 400;}
 
 
 @media (max-width: 360px){
-	div#followus ul {
+	
+	
+#slidermoscow {
+   
+	background-size: 280% 100%!important;}	
+	
+#sliderbarcelona {
+   
+	background-size: 280% 100%!important;}	
+
+#slidervenecia {
+   
+	background-size: 280% 100%!important;}		
+
+div#followus ul {
     margin-left: -70px!important;
 }
 #numberc {
@@ -2612,7 +2639,19 @@ div#barcelonaform3 {
     background: background: #0000;
     padding: 50px;
     margin-left: -10px!important;
-}	
+}
+
+#slidermoscow {
+   
+	background-size: 280% 100%!important;}	
+	
+#sliderbarcelona {
+   
+	background-size: 280% 100%!important;}	
+
+#slidervenecia {
+   
+	background-size: 280% 100%!important;}		
 	
 }
 
