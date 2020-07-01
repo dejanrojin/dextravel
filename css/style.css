@@ -2212,7 +2212,7 @@ font-weight: 600;}
 p#demo {
     color: #ab8e71;
     font-size: 20px;
-    margin-top: 100px;
+    margin-top: 0px;
 }	
 ul#tabs {
     
@@ -2370,9 +2370,13 @@ div#bookform input {
 
 @media (max-width: 375px) {
 	
+
 p#demo {
-    width: 170px;
-}	
+width: 170px;
+    color: #ab8e71;
+    font-size: 20px;
+    margin-top: 0px;
+}
 		
 	p#bookrushtext {
     font-size: 16px;
@@ -2421,11 +2425,7 @@ h1#paris span {
     font-size: 30px;
 font-weight: 600;}
 
-p#demo {
-    color: #ab8e71;
-    font-size: 20px;
-    margin-top: 100px;
-}	
+	
 ul#tabs {
     
 margin-left: 45px;}
@@ -2556,10 +2556,14 @@ div#bookform input {
 
 
 @media (max-width: 360px){
-	
 p#demo {
-    width: 170px;
-}	
+width: 170px;
+    color: #ab8e71;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+	 
 		
 p#bookrushtext {
     font-size: 16px;
@@ -2660,9 +2664,11 @@ div#barcelonaform3 {
 
 @media (max-width: 320px){
 p#demo {
-    width: 170px;
-}	
-	
+width: 160px;
+    color: #ab8e71;
+    font-size: 16px;
+    margin-top: 0px;
+}
 p#bookrushtext {
     font-size: 16px;
 }	
