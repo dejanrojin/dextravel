@@ -2316,7 +2316,9 @@ h1#aquariumbarcelona {
     width: 300px;
 }	
 	
-
+span#waiting {
+    font-size: 24px;
+font-weight: 400;}
 	
 }
 
@@ -2475,7 +2477,9 @@ h1#aquariumbarcelona {
 img#plane {
 	margin-left: 3.8em!important;}	
 
-	
+span#waiting {
+    font-size: 24px;
+font-weight: 400;}	
 }
 
 
@@ -2539,6 +2543,11 @@ h1#aquariumbarcelona {
 
 img#plane {
 	margin-left: 3.8em!important;}
+	
+	
+span#waiting {
+    font-size: 24px;
+font-weight: 400;}	
 }
 
 
@@ -2559,7 +2568,10 @@ span#textmoscow {
 p#sastrane {
     
     font-size: 16px;
-}	
+}
+span#waiting {
+    font-size: 24px;
+font-weight: 400;}
 }
 
 
