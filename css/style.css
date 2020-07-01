@@ -2335,6 +2335,19 @@ div#barcelonaform3 {
 
 
 @media (max-width: 375px) {
+	
+#slidermoscow {
+   
+	background-size: 280% 100%!important;}	
+	
+#sliderbarcelona {
+   
+	background-size: 280% 100%!important;}	
+
+#slidervenecia {
+   
+	background-size: 280% 100%!important;}	
+	
 div#barcelonaform3 {
     background: background: #0000;
     padding: 50px;
