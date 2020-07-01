@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Avg 25, 2020 15:37:25").getTime();
+var countDownDate = new Date("Avg 25, 2021 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -11,19 +11,19 @@ var x = setInterval(function() {
   var distance = countDownDate - now;
     
   // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  var dayss = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hourss = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutess = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var secondss = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  if(seconds < 10){
+  if(secondss < 10){
 	
-seconds="0"+seconds;
+secondss="0"+secondss;
 }    
 	
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = dayss + "d " + hourss + "h "
+  + minutess + "m " + secondss + "s ";
 
   // If the count down is over, write some text 
   if (distance < 0) {
@@ -74,6 +74,7 @@ seconds="0"+seconds;
     document.getElementById("demo2").innerHTML = "EXPIRED";
   }
 }, 1000);
+
 
 
 
