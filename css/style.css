@@ -2338,7 +2338,7 @@ div#barcelonaform3 {
 div#barcelonaform3 {
     background: background: #0000;
     padding: 50px;
-    margin-left: 20px!important;
+    margin-left: -20px!important;
 }
 #numberc {
   pointer-events: fill;
