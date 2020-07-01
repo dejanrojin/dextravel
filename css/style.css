@@ -2337,7 +2337,15 @@ div#barcelonaform3 {
 
 #slidervenecia {
    
-	background-size: 280% 100%!important;}		
+	background-size: 280% 100%!important;}	
+	
+div#bookdiv {
+    display: flex;
+    flex-wrap: wrap;
+}	
+
+div#bookform input {
+	width: 265px;}	
 	
 }
 
@@ -2348,6 +2356,11 @@ div#barcelonaform3 {
 
 
 @media (max-width: 375px) {
+	
+div#bookdiv {
+    display: flex;
+    flex-wrap: wrap;
+}	
 	
 #slidermoscow {
    
@@ -2515,13 +2528,21 @@ img#plane {
 
 span#waiting {
     font-size: 24px;
-font-weight: 400;}	
+font-weight: 400;}
+	
+div#bookform input {
+	width: 265px;}	
 }
 
 
 @media (max-width: 360px){
-	
-	
+	div#bookdiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div#bookform input {
+	width: 265px;}	
 #slidermoscow {
    
 	background-size: 280% 100%!important;}	
@@ -2651,7 +2672,10 @@ div#barcelonaform3 {
 
 #slidervenecia {
    
-	background-size: 280% 100%!important;}		
+	background-size: 280% 100%!important;}	
+	
+div#bookform input {
+	width: 265px;}	
 	
 }
 
