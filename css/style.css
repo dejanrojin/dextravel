@@ -2320,6 +2320,12 @@ span#waiting {
     font-size: 24px;
 font-weight: 400;}
 	
+div#barcelonaform3 {
+    background: background: #0000;
+    padding: 50px;
+    margin-left: 20px!important;
+}	
+	
 }
 
 
@@ -2329,7 +2335,11 @@ font-weight: 400;}
 
 
 @media (max-width: 375px) {
-
+div#barcelonaform3 {
+    background: background: #0000;
+    padding: 50px;
+    margin-left: 20px!important;
+}
 #numberc {
   pointer-events: fill;
   cursor: pointer;
@@ -2549,7 +2559,13 @@ img#plane {
 	
 span#waiting {
     font-size: 24px;
-font-weight: 400;}	
+font-weight: 400;}
+	
+div#barcelonaform3 {
+    background: background: #0000;
+    padding: 50px;
+    margin-left: 10px!important;
+}	
 }
 
 
@@ -2578,7 +2594,13 @@ font-weight: 400;}
 	
 div#followus ul {
     margin-left: -70px!important;
+}
+div#barcelonaform3 {
+    background: background: #0000;
+    padding: 50px;
+    margin-left: -10px!important;
 }	
+	
 }
 
 
