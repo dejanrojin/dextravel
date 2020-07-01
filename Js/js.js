@@ -42,7 +42,7 @@ seconds="0"+seconds;
 
 
 
-var countDownDate = new Date("Jun 25, 2021 15:37:25").getTime();
+var countDownDate = new Date("Avg 25, 2021 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -76,7 +76,7 @@ seconds="0"+seconds;
 }, 1000);
 
 
-var countDownDate = new Date("Avg 25, 2020 15:37:25").getTime();
+var countDownDate = new Date("Avg 25, 2021 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
