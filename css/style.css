@@ -2664,10 +2664,11 @@ div#barcelonaform3 {
 
 @media (max-width: 320px){
 p#demo {
-width: 160px;
+    width: 150px;
     color: #ab8e71;
     font-size: 16px;
     margin-top: 0px;
+    margin-left: 5px;
 }
 p#bookrushtext {
     font-size: 16px;
@@ -2716,7 +2717,7 @@ div#barcelonaform3 {
 	background-size: 280% 100%!important;}	
 	
 div#bookform input {
-	width: 265px;}	
+	width: 235px;}	
 	
 }
 
