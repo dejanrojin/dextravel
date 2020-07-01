@@ -2530,14 +2530,21 @@ h1#aquariumbarcelona {
     width: 300px;
 }
 
-
+ul#boxlist li {
+    font-size: 9.5px;
+}
 }
 
 @media (max-width: 320px){
 #hoteltitle {
-    font-size: 9.3px!important;
+    font-size: 14px!important;
 }
-
+img#plane {
+	margin-left: 3.8em;}
+ul#boxlist li {
+    font-size: 9.5px;
+}	
+	
 }
 
 
