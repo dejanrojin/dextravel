@@ -2409,7 +2409,7 @@ div#ibizza2 {
 }
 
 div#followus ul {
-    margin-left: -135px!important;
+    margin-left: -70px!important;
 }
 
 #message {
@@ -2484,7 +2484,9 @@ font-weight: 400;}
 
 
 @media (max-width: 360px){
-	
+	div#followus ul {
+    margin-left: -70px!important;
+}
 #numberc {
   pointer-events: fill;
   cursor: pointer;
@@ -2572,6 +2574,11 @@ p#sastrane {
 span#waiting {
     font-size: 24px;
 font-weight: 400;}
+	
+	
+div#followus ul {
+    margin-left: -70px!important;
+}	
 }
 
 
