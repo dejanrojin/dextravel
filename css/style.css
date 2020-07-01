@@ -2346,7 +2346,9 @@ div#bookdiv {
 
 div#bookform input {
 	width: 265px;}	
-	
+	p#bookrushtext {
+    font-size: 16px;
+}
 }
 
 
@@ -2356,7 +2358,9 @@ div#bookform input {
 
 
 @media (max-width: 375px) {
-	
+	p#bookrushtext {
+    font-size: 16px;
+}
 div#bookdiv {
     display: flex;
     flex-wrap: wrap;
@@ -2536,6 +2540,10 @@ div#bookform input {
 
 
 @media (max-width: 360px){
+	
+p#bookrushtext {
+    font-size: 16px;
+}	
 	div#bookdiv {
     display: flex;
     flex-wrap: wrap;
@@ -2631,6 +2639,10 @@ div#barcelonaform3 {
 
 
 @media (max-width: 320px){
+	
+p#bookrushtext {
+    font-size: 16px;
+}	
 #hoteltitle {
     font-size: 14px!important;
 }
