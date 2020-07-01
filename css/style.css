@@ -2328,6 +2328,16 @@ h1#aquariumbarcelona {
 
 @media (max-width: 375px) {
 
+p#sastrane {
+    
+    font-size: 16px;
+}
+	
+span#textmoscow {
+    font-size: 13px;
+    font-weight: 100;
+}		
+	
 #numberc {
   pointer-events: fill;
   cursor: pointer;
