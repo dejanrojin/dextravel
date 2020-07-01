@@ -2540,9 +2540,9 @@ ul#boxlist li {
     font-size: 14px!important;
 }
 img#plane {
-	margin-left: 3.8em;}
+	margin-left: 3.8em!important;}
 ul#boxlist li {
-    font-size: 9.5px;
+    font-size: 9.5px!important;
 }	
 	
 }
