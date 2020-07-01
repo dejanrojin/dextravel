@@ -2183,6 +2183,10 @@ h1#aquariumbarcelona {
 
 
 @media (max-width: 414px) {
+p#demo {
+    width: 170px;
+}	
+	
 #numberc {
   pointer-events: fill;
   cursor: default;
@@ -2365,6 +2369,11 @@ div#bookform input {
 
 
 @media (max-width: 375px) {
+	
+p#demo {
+    width: 170px;
+}	
+		
 	p#bookrushtext {
     font-size: 16px;
 }
@@ -2548,6 +2557,10 @@ div#bookform input {
 
 @media (max-width: 360px){
 	
+p#demo {
+    width: 170px;
+}	
+		
 p#bookrushtext {
     font-size: 16px;
 }	
@@ -2646,6 +2659,9 @@ div#barcelonaform3 {
 
 
 @media (max-width: 320px){
+p#demo {
+    width: 170px;
+}	
 	
 p#bookrushtext {
     font-size: 16px;
