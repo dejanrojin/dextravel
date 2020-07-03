@@ -247,7 +247,7 @@ var countDownDate3 = new Date("Avg 26, 2020 15:37:25").getTime();
 var x3 = setInterval(function() {
 
   // Get today's date and time
-  var now = new Date().getTime();
+  var now3 = new Date().getTime();
     
   // Find the distance between now and the count down date
   var distance3 = countDownDate3 - now3;
