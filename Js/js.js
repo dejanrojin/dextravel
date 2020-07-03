@@ -34,39 +34,7 @@ secondsss="0"+secondsss;
 
 
 
-// Set the date we're counting down to
-var countDownDate = new Date("Avg 25, 2021 15:37:25").getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var dayss = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hourss = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutess = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var secondss = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  if(secondss < 10){
-	
-secondss="0"+secondss;
-}    
-	
-  document.getElementById("demo").innerHTML = dayss + "d " + hourss + "h "
-  + minutess + "m " + secondss + "s ";
-
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
 
 
 
@@ -290,3 +258,38 @@ var mobile = mobileCheck();
 if (!mobile) {
   document.getElementById('a#numberc').href = 'www.iliccisport.byethost24.com';
 }
+
+
+// Set the date we're counting down to
+var countDownDate = new Date("Avg 25, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var dayss = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hourss = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutess = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var secondss = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  if(secondss < 10){
+	
+secondss="0"+secondss;
+}    
+	
+  document.getElementById("demo").innerHTML = dayss + "d " + hourss + "h "
+  + minutess + "m " + secondss + "s ";
+
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
