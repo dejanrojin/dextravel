@@ -10,10 +10,10 @@ var x3 = setInterval(function() {
   var distance3 = countDownDate3 - now3;
     
   // Time calculations for days, hours, minutes and seconds
-  var daysss = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hoursss = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutesss = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var secondsss = Math.floor((distance % (1000 * 60)) / 1000);
+  var daysss = Math.floor(distance3 / (1000 * 60 * 60 * 24));
+  var hoursss = Math.floor((distance3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutesss = Math.floor((distance3 % (1000 * 60 * 60)) / (1000 * 60));
+  var secondsss = Math.floor((distance3 % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo3"
   if(secondsss < 10){
