@@ -241,3 +241,38 @@ $("#asia").css({'display':'none'});
 });
 
 
+var countDownDate3 = new Date("Avg 26, 2020 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x3 = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance3 = countDownDate3 - now3;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days3 = Math.floor(distance3 / (1000 * 60 * 60 * 24));
+  var hours3 = Math.floor((distance3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes3 = Math.floor((distance3 % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds3 = Math.floor((distance3 % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  if(seconds3 < 10){
+	
+seconds3="0"+seconds3;
+}    
+	
+  document.getElementById("demo3").innerHTML = days3 + "d " + hours3 + "h "
+  + minutes3 + "m " + seconds3 + "s ";
+
+  // If the count down is over, write some text 
+  if (distance3 < 0) {
+    clearInterval(x3);
+    document.getElementById("demo3").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+
+
