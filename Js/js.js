@@ -87,13 +87,13 @@ var x = setInterval(function() {
   var now = new Date().getTime();
     
   // Find the distance between now and the count down date
-  var distance = countDownDate3 - now;
+  var distance3 = countDownDate3 - now;
     
   // Time calculations for days, hours, minutes and seconds
-  var dayss = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hourss = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutess = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var secondss = Math.floor((distance % (1000 * 60)) / 1000);
+  var daysss = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hoursss = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutesss = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var secondsss = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
   if(secondss < 10){
@@ -101,11 +101,11 @@ var x = setInterval(function() {
 secondss="0"+secondss;
 }    
 	
-  document.getElementById("demo3").innerHTML = dayss + "d " + hourss + "h "
-  + minutess + "m " + secondss + "s ";
+  document.getElementById("demo3").innerHTML = daysss + "d " + hoursss + "h "
+  + minutesss + "m " + secondsss + "s ";
 
   // If the count down is over, write some text 
-  if (distance < 0) {
+  if (distance3 < 0) {
     clearInterval(x);
     document.getElementById("demo3").innerHTML = "EXPIRED";
   }
