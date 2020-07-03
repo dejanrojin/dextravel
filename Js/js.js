@@ -264,13 +264,13 @@ var x3 = setInterval(function() {
 seconds3="0"+seconds3;
 }    
 	
-  document.getElementById("demo3").innerHTML = days3 + "d " + hours3 + "h "
+  document.getElementById("p#demo3").innerHTML = days3 + "d " + hours3 + "h "
   + minutes3 + "m " + seconds3 + "s ";
 
   // If the count down is over, write some text 
   if (distance3 < 0) {
     clearInterval(x3);
-    document.getElementById("demo3").innerHTML = "EXPIRED";
+    document.getElementById("p#demo3").innerHTML = "EXPIRED";
   }
 }, 1000);
 
