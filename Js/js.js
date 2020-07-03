@@ -73,7 +73,7 @@ seconds="0"+seconds;
   + minutes + "m " + seconds + "s ";
 
   // If the count down is over, write some text 
-  if (distance < 0) {
+  if (distance2 < 0) {
     clearInterval(x2);
     document.getElementById("demo2").innerHTML = "EXPIRED";
   }
