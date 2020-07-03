@@ -9,6 +9,13 @@ overflowY:hidden;
 
 p#demo {
     color: #ab8e71;
+    font-size: 40px;
+	margin-top: 100px;
+}
+
+
+p#demo3 {
+    color: #ab8e71;
     font-size: 20px;
     margin-top: 0px;
     text-align: center;
@@ -2183,7 +2190,7 @@ h1#aquariumbarcelona {
 
 
 @media (max-width: 414px) {
-p#demo {
+p#demo3 {
     width: 170px;
 }	
 	
@@ -2209,10 +2216,11 @@ h1#paris span {
     font-size: 30px;
 font-weight: 600;}
 
+
 p#demo {
     color: #ab8e71;
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: 100px;
 }	
 ul#tabs {
     
@@ -2408,7 +2416,11 @@ div#barcelonaform3 {
   cursor: pointer;
   
 }	
-	
+p#demo {
+    color: #ab8e71;
+    font-size: 20px;
+    margin-top: 100px;
+}
 #hoteltitle {
 
 font-size: 15px;}	
