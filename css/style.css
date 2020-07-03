@@ -2681,12 +2681,17 @@ div#barcelonaform3 {
 
 
 @media (max-width: 320px){
-p#demo {
+p#demo3 {
     width: 150px;
     color: #ab8e71;
     font-size: 16px;
     margin-top: 0px;
     margin-left: 5px;
+}
+p#demo {
+    color: #ab8e71;
+    font-size: 20px;
+    margin-top: 100px;
 }
 p#bookrushtext {
     font-size: 16px;
