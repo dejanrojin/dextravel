@@ -2383,7 +2383,7 @@ p#demo {
 width: 170px;
     color: #ab8e71;
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: 100px;
 }
 		
 	p#bookrushtext {
@@ -2569,10 +2569,16 @@ div#bookform input {
 
 @media (max-width: 360px){
 p#demo {
+    color: #ab8e71;
+    font-size: 20px;
+    margin-top: 100px;
+}	
+	
+p#demo3 {
 width: 170px;
     color: #ab8e71;
     font-size: 18px;
-    margin-top: 0px;
+    margin-top: 100px;
 }
 
 	 
