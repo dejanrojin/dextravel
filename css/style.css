@@ -222,13 +222,15 @@ img#play {
     margin-top: 10px;
 }
 #button {
-    background: #b29273;
+    background: #b2927300;
     color: #fff;
     padding: 6px;
     font-size: 26px;
     border: 2px solid #ab8e71;
 }
 
+button#button a {
+	color: #b29273!important;}
 span#textmoscow {
     font-size: 15px;
     font-weight: 100;
