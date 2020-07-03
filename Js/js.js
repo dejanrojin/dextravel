@@ -42,11 +42,7 @@ seconds="0"+seconds;
 
 
 
-
-
-
-// Set the date we're counting down to
-var countDownDate = new Date("Avg 25, 2020 15:37:25").getTime();
+var countDownDate = new Date("Jun 25, 2021 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -69,15 +65,18 @@ var x = setInterval(function() {
 seconds="0"+seconds;
 }    
 	
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("demo2").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo2").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+
 
 
 
